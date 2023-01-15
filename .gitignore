@@ -1,0 +1,5 @@
+/vendor/
+.hugo_build.lock
+/public/*
+!/public/.gitkeep
+/resources/_gen/*

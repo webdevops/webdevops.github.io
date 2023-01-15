@@ -1,0 +1,35 @@
+title: 'webdevops.io'
+languageCode: 'en-us'
+theme: loveit
+
+params:
+  title: webdevops.io
+  description: Cloud solutions
+  header:
+    title:
+      name: webdevops.io
+  home:
+    profile:
+      subtitle: cloud solutions
+  footer:
+    since: 2023
+    license: webdevops.io
+  app:
+    title: webdevops.io
+
+  social:
+    GitHub: https://github.com/webdevops/
+  share:
+    enable: false
+
+menu:
+  main:
+  - identifier: github
+    name: github
+    pre: <i class="fa-brands fa-github"></i>
+    url: https://github.com/webdevops/
+    weight: -110
+  - name: Imprint
+    pre: <i class="fa-solid fa-circle-info"></i>
+    url: /imprint
+    weight: -100
