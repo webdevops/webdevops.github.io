@@ -1,0 +1,14 @@
+img.webdevops-logo {
+    max-width: 50%;
+}
+
+.header-title img,
+.webdevops-logo {
+    filter: invert(1);
+}
+
+body[theme=dark] .header-title img,
+.webdevops-logo {
+    filter: invert(0);
+}
+

@@ -5,12 +5,20 @@ theme: loveit
 params:
   title: webdevops.io
   description: Cloud solutions
+
+  defaultTheme: dark
+
   header:
     title:
-      name: webdevops.io
+      name:
+      logo: /static/logo.png
   home:
     profile:
-      subtitle: cloud solutions
+      subtitle:
+        azure projects
+      disclaimer: |
+        <img class="webdevops-logo" src="/static/logo.png">
+
   footer:
     since: 2023
     license: webdevops.io
@@ -22,14 +30,24 @@ params:
   share:
     enable: false
 
+  page:
+    library:
+        css:
+          webdevops: /static/webdevops.css
+
 menu:
   main:
+  - identifier: projects
+    name: projects
+    pre: <i class="fa-solid fa-cubes"></i>
+    url: /projects/
+    weight: 20
   - identifier: github
     name: github
     pre: <i class="fa-brands fa-github"></i>
     url: https://github.com/webdevops/
-    weight: -110
+    weight: 10000
   - name: Imprint
     pre: <i class="fa-solid fa-circle-info"></i>
     url: /imprint
-    weight: -100
+    weight: 10001
