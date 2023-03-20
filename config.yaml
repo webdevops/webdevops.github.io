@@ -15,7 +15,7 @@ params:
   home:
     profile:
       subtitle:
-        azure projects
+        cloud solutions
       disclaimer: |
         <img class="webdevops-logo" src="/static/logo.png">
 
@@ -42,6 +42,16 @@ menu:
     pre: <i class="fa-solid fa-cubes"></i>
     url: /projects/
     weight: 20
+  - identifier: members
+    name: members
+    pre: <i class="fa-solid fa-people-group"></i>
+    url: /members/
+    weight: 40
+  - identifier: coc
+    name: code of conduct
+    pre: <i class="fa-regular fa-handshake"></i>
+    url: /code-of-conduct/
+    weight: 60
   - identifier: github
     name: github
     pre: <i class="fa-brands fa-github"></i>
