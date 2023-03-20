@@ -3,12 +3,12 @@ img.webdevops-logo {
 }
 
 .header-title img,
-.webdevops-logo {
+img.webdevops-logo {
     filter: invert(1);
 }
 
 body[theme=dark] .header-title img,
-.webdevops-logo {
+body[theme=dark] img.webdevops-logo {
     filter: invert(0);
 }
 
