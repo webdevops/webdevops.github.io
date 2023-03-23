@@ -52,13 +52,13 @@ menu:
     pre: <i class="fa-regular fa-handshake"></i>
     url: /code-of-conduct/
     weight: 60
-  - identifier: github
-    name: github
-    pre: <i class="fa-brands fa-github"></i>
-    url: https://github.com/webdevops/
-    weight: 10000
-    params:
-      rel: external
+#   - identifier: github
+#     name: github
+#     pre: <i class="fa-brands fa-github"></i>
+#     url: https://github.com/webdevops/
+#     weight: 10000
+#     params:
+#       rel: external
   - name: Imprint
     pre: <i class="fa-solid fa-circle-info"></i>
     url: /imprint
