@@ -27,7 +27,7 @@ params:
     title: webdevops.io
 
   social:
-    GitHub: https://github.com/webdevops/
+    GitHub: webdevops
   share:
     enable: false
 
