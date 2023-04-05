@@ -17,6 +17,7 @@ params:
       subtitle:
         cloud solutions
       disclaimer: |
+        <br><br><a href="https://discord.gg/BpBZtXAgJz">join discord</a><br><br>
         <img class="webdevops-logo" src="/static/logo.png">
 
   footer:
